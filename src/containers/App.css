@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 50px 0;
+  text-align: center;
+}
+
+button {
+  font-family: "Poppins", "serif";
+}
+
+.btn-changeUser {
+  margin: 30px 10px;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  background: linear-gradient(to right, #dd2476, #ff512f);
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.btn-changeUser:hover {
+  background: linear-gradient(to right, #dd2476, #ffa000);
+}
